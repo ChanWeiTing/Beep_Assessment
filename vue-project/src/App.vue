@@ -1,6 +1,6 @@
 <script setup>
-import Autocomplete from './components/Autocomplete.vue';
-import Autocomplete1 from './components/Autocomplete1.vue';
+import Synchronous from './components/Synchronous.vue';
+import Asynchronous from './components/Asynchronous.vue';
 import countries from './data/countries.json';
 import { computed, ref } from 'vue'
 
@@ -11,8 +11,8 @@ const country1 = ref('')
 <template>
   <div class="w-screen h-screen bg-gray-200 flex justify-center items-center">
       <div class="w-1/3">
-        <Autocomplete :source="countries" v-model="country" />
-        <Autocomplete1 :source="countries" v-model="country1" />
+        <Synchronous :source="countries" v-model="country" />
+        <Asynchronous :source="countries" v-model="country1" />
       </div>
   </div>
 </template>
