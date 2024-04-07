@@ -1,6 +1,6 @@
 Use of Vue.js and TailwindCSS to create an autocomplete component
 
-Under the component folder, there is two files which aare implemented in app.vue
+Under the component folder, there is two files which are implemented in app.vue
 - synchronous.vue
 - asynchronous.vue
 
